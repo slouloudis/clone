@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1541185934-01b600ea069c?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+/* CSS Variables */
+
+:root {
+  --fc: white;
+}
+
+.txt-300 > * {
+  color: var(--fc);
+  text-transform: capitalize;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* Layout */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
